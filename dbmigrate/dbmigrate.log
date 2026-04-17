@@ -1,0 +1,146 @@
+nohup: ignoring input
+--------------
+INSERT INTO execution_log (log_id, output, status)
+                VALUES (15, "APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh", "done")
+--------------
+
+ERROR 1054 (42S22) at line 2: Unknown column 'status' in 'field list'
+--------------
+INSERT INTO execution_log (log_id, output, status)
+                VALUES (16, "APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh", "done")
+--------------
+
+ERROR 1054 (42S22) at line 2: Unknown column 'status' in 'field list'
+--------------
+INSERT INTO execution_log (log_id, output, status)
+                VALUES (17, "APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh", "done")
+--------------
+
+ERROR 1054 (42S22) at line 2: Unknown column 'status' in 'field list'
+--------------
+INSERT INTO execution_log (log_id, output, status)
+                VALUES (18, "APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh", "done")
+--------------
+
+ERROR 1054 (42S22) at line 2: Unknown column 'status' in 'field list'
+--------------
+INSERT INTO execution_log (log_id, output, status)
+                VALUES (19, "APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh", "done")
+--------------
+
+ERROR 1054 (42S22) at line 2: Unknown column 'status' in 'field list'
+[done] ID 19: APACHE.md
+backend
+dbmigrate.log
+docker-compose.override.yml.example
+docker-compose.yml
+DOCKER.md
+DOCKER-SHARE.md
+export-images.sh
+frontend
+init-databases.sql
+INSTALL-DOCKER.md
+install-docker-rocky.sh
+Makefile
+mysqlsampledatabase.sql
+NODEJS-DOCKER.md
+open-ports.sh
+README.md
+start-engine.sh
+STATUS-FIELD-UPDATE.md
+verify-docker.sh
