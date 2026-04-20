@@ -9,3 +9,29 @@ Executing ID=2 CMD=whoami
 Starting script engine...
 Executing ID=3 CMD=whoami
 [Thu Apr 16 10:57:03 PM EDT 2026] ID=3 CMD=whoami STATUS=done EXIT=0 OUTPUT=luca
+Starting script engine...
+Executing ID=4 CMD=whoami
+[Sun Apr 19 09:25:51 PM EDT 2026] ID=4 CMD=whoami STATUS=done EXIT=0 OUTPUT=luca
+Executing ID=5 CMD=date
+[Sun Apr 19 09:25:57 PM EDT 2026] ID=5 CMD=date STATUS=done EXIT=0 OUTPUT=Sun Apr 19 09:25:57 PM EDT 2026
+Executing ID=6 CMD=uname -a
+[Sun Apr 19 09:26:02 PM EDT 2026] ID=6 CMD=uname -a STATUS=done EXIT=0 OUTPUT=Linux localhost.localdomain 5.14.0-570.55.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Oct 24 10:42:20 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Executing ID=7 CMD=whoami
+[Sun Apr 19 09:26:18 PM EDT 2026] ID=7 CMD=whoami STATUS=done EXIT=0 OUTPUT=luca
+Starting script engine...
+Processing ID=8 CMD=date
+[Sun Apr 19 09:30:13 PM EDT 2026] ID=8 CMD=date STATUS=done EXIT=0 OUTPUT=Sun Apr 19 09:30:13 PM EDT 2026
+Processing ID=9 CMD=fakecmd123
+[Sun Apr 19 09:30:18 PM EDT 2026] ID=9 CMD=fakecmd123 STATUS=error EXIT=127 OUTPUT=bash: line 1: fakecmd123: command not found
+Starting script engine...
+Processing ID=10 CMD=whoami
+[Sun Apr 19 09:33:26 PM EDT 2026] ID=10 CMD=whoami STATUS=done EXIT=0 OUTPUT=luca
+Processing ID=11 CMD=date
+[Sun Apr 19 09:33:29 PM EDT 2026] ID=11 CMD=date STATUS=done EXIT=0 OUTPUT=Sun Apr 19 09:33:29 PM EDT 2026
+Processing ID=12 CMD=uname -a
+[Sun Apr 19 09:33:31 PM EDT 2026] ID=12 CMD=uname -a STATUS=done EXIT=0 OUTPUT=Linux localhost.localdomain 5.14.0-570.55.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Oct 24 10:42:20 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Processing ID=13 CMD=fakecmd123
+[Sun Apr 19 09:34:38 PM EDT 2026] ID=13 CMD=fakecmd123 STATUS=error EXIT=127 OUTPUT=bash: line 1: fakecmd123: command not found
+Processing ID=14 CMD=ls --wrongflag
+[Sun Apr 19 09:34:40 PM EDT 2026] ID=14 CMD=ls --wrongflag STATUS=error EXIT=2 OUTPUT=ls: unrecognized option '--wrongflag'
+Try 'ls --help' for more information.

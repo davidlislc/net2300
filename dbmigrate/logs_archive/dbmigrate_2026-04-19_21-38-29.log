@@ -1,0 +1,10 @@
+nohup: ignoring input
+Starting script engine...
+Processing ID=10 CMD=whoami
+[Sun Apr 19 09:33:26 PM EDT 2026] ID=10 CMD=whoami STATUS=done EXIT=0 OUTPUT=luca
+Processing ID=12 CMD=uname -a
+[Sun Apr 19 09:33:31 PM EDT 2026] ID=12 CMD=uname -a STATUS=done EXIT=0 OUTPUT=Linux localhost.localdomain 5.14.0-570.55.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Oct 24 10:42:20 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Processing ID=13 CMD=fakecmd123
+[Sun Apr 19 09:34:38 PM EDT 202Processing ID=14 CMD=ls --wrongflag
+[Sun Apr 19 09:34:40 PM EDT 2026] ID=14 CMD=ls --wrongflag STATUS=error EXIT=2 OUTPUT=ls: unrecognized option '--wrongflag'
+Try 'ls --help' for more information.
