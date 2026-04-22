@@ -1,0 +1,16 @@
+nohup: ignoring input
+[Wed Apr 22 02:18:56 PM EDT 2026] Executing job 34: mysqldump -h 127.0.0.1 -u root -prootpassword logdb > backup.sql 
+[Wed Apr 22 02:18:56 PM EDT 2026] [done] CMD: mysqldump -h 127.0.0.1 -u root -prootpassword logdb > backup.sql 
+
+-------------------------------------------------------
+[Wed Apr 22 03:56:30 PM EDT 2026] Executing job 35: ./backupdb.sh 
+[Wed Apr 22 03:56:30 PM EDT 2026] [done] CMD: ./backupdb.sh 
+=== Starting Database Backup ===
+Database: logdb
+Host: 127.0.0.1
+User: root
+Password: *******
+Output File: ./sql_archive/backup_{2026-04-22_15-56-30}.sql
+Backup Completed Successfully.
+Backup File Created: ./sql_archive/backup_{2026-04-22_15-56-30}.sql
+-------------------------------------------------------
