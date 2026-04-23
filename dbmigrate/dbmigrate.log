@@ -1,0 +1,9 @@
+nohup: ignoring input
+Starting script engine...
+Processing ID=15 CMD=docker exec logapp-mariadb sh -c "mysqldump -u root -prootpassword logdb > /backup.sql"
+[Wed Apr 22 08:03:28 PM EDT 2026] ID=15 CMD=docker exec logapp-mariadb sh -c "mysqldump -u root -prootpassword logdb > /backup.sql" STATUS=error EXIT=127 OUTPUT=sh: 1: mysqldump: not found
+Processing ID=16 CMD=docker exec logapp-mariadb sh -c "mariadb-dump -u root -prootpassword logdb > /backup.sql"
+[Wed Apr 22 08:05:32 PM EDT 2026] ID=16 CMD=docker exec logapp-mariadb sh -c "mariadb-dump -u root -prootpassword logdb > /backup.sql" STATUS=done EXIT=0 OUTPUT=
+Processing ID=17 CMD=./backupdb.sh
+[Wed Apr 22 08:09:58 PM EDT 2026] ID=17 CMD=./backupdb.sh STATUS=done EXIT=0 OUTPUT=[Wed Apr 22 08:09:58 PM EDT 2026] Executed: mariadb-dump -u root -p****** logdb > backup_2026-04-22_20-09-58.sql
+Backup created: backup_2026-04-22_20-09-58.sql
