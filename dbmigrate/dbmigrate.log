@@ -1,0 +1,498 @@
+2026-04-20 00:29:33 - Engine started. Checking pending tasks...
+2026-04-20 00:29:33 - Executing ID mysql: from 11.8.3-MariaDB, client 15.2 for debian-linux-gnu (x86_64) using  EditLine wrapper
+2026-04-20 00:29:33 - Error: ID mysql failed with exit code 2
+2026-04-20 00:29:33 - Executing ID Copyright: (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+2026-04-20 00:29:33 - Error: ID Copyright failed with exit code 2
+2026-04-20 00:29:33 - Executing ID : 
+2026-04-20 00:29:33 - Success: ID 
+2026-04-20 00:29:33 - Executing ID Usage:: mysql [OPTIONS] [database]
+2026-04-20 00:29:33 - Error: ID Usage: failed with exit code 1
+2026-04-20 00:29:33 - Executing ID : 
+2026-04-20 00:29:33 - Success: ID 
+2026-04-20 00:29:33 - Executing ID Default: options are read from the following files in the given order:
+2026-04-20 00:29:33 - Error: ID Default failed with exit code 127
+2026-04-20 00:29:33 - Executing ID /etc/my.cnf: /etc/mysql/my.cnf ~/.my.cnf
+2026-04-20 00:29:33 - Error: ID /etc/my.cnf failed with exit code 126
+2026-04-20 00:29:33 - Executing ID The: following groups are read: mysql mariadb-client client client-server client-mariadb
+2026-04-20 00:29:33 - Error: ID The failed with exit code 127
+2026-04-20 00:29:33 - Executing ID The: following options may be given as the first argument:
+2026-04-20 00:29:33 - Error: ID The failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --print-defaults: Print the program argument list and exit.
+2026-04-20 00:29:33 - Error: ID --print-defaults failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --no-defaults: Don't read default options from any option file.
+2026-04-20 00:29:33 - Error: ID --no-defaults failed with exit code 2
+2026-04-20 00:29:33 - Executing ID The: following specify which files/extra groups are read (specified before remaining options):
+2026-04-20 00:29:33 - Error: ID The failed with exit code 2
+2026-04-20 00:29:33 - Executing ID --defaults-file=#: Only read default options from the given file #.
+2026-04-20 00:29:33 - Error: ID --defaults-file=# failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --defaults-extra-file=#: Read this file after the global files are read.
+2026-04-20 00:29:33 - Error: ID --defaults-extra-file=# failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --defaults-group-suffix=#: Additionally read default groups with # appended as a suffix.
+2026-04-20 00:29:33 - Error: ID --defaults-group-suffix=# failed with exit code 127
+2026-04-20 00:29:33 - Executing ID : 
+2026-04-20 00:29:33 - Success: ID 
+2026-04-20 00:29:33 - Executing ID -?,: --help          Display this help and exit.
+2026-04-20 00:29:33 - Error: ID -?, failed with exit code 2
+2026-04-20 00:29:33 - Executing ID -I,: --help          Synonym for -?
+2026-04-20 00:29:33 - Error: ID -I, failed with exit code 2
+2026-04-20 00:29:33 - Executing ID --abort-source-on-error: 
+2026-04-20 00:29:33 - Success: ID --abort-source-on-error
+2026-04-20 00:29:33 - Executing ID Abort: 'source filename' operations in case of errors
+2026-04-20 00:29:33 - Error: ID Abort failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --auto-rehash: Enable automatic rehashing. One doesn't need to use
+2026-04-20 00:29:33 - Error: ID --auto-rehash failed with exit code 2
+2026-04-20 00:29:33 - Executing ID 'rehash': to get table and field completion, but startup
+2026-04-20 00:29:33 - Error: ID 'rehash' failed with exit code 127
+2026-04-20 00:29:33 - Executing ID and: reconnecting may take a longer time.
+2026-04-20 00:29:33 - Error: ID and failed with exit code 127
+2026-04-20 00:29:33 - Executing ID (Defaults: to on; use --skip-auto-rehash to disable.)
+2026-04-20 00:29:33 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:33 - Executing ID -A,: --no-auto-rehash
+2026-04-20 00:29:33 - Error: ID -A, failed with exit code 2
+2026-04-20 00:29:33 - Executing ID No: automatic rehashing. One has to use 'rehash' to get
+2026-04-20 00:29:33 - Error: ID No failed with exit code 127
+2026-04-20 00:29:33 - Executing ID table: and field completion. This gives a quicker start of
+2026-04-20 00:29:33 - Error: ID table failed with exit code 127
+2026-04-20 00:29:33 - Executing ID mysql: and disables rehashing on reconnect.
+2026-04-20 00:29:33 - Error: ID mysql failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --auto-vertical-output: 
+2026-04-20 00:29:33 - Success: ID --auto-vertical-output
+2026-04-20 00:29:33 - Executing ID Automatically: switch to vertical output mode if the
+2026-04-20 00:29:33 - Error: ID Automatically failed with exit code 127
+2026-04-20 00:29:33 - Executing ID result: is wider than the terminal width.
+2026-04-20 00:29:33 - Error: ID result failed with exit code 127
+2026-04-20 00:29:33 - Executing ID -B,: --batch         Don't use history file. Disable interactive behavior.
+2026-04-20 00:29:33 - Error: ID -B, failed with exit code 2
+2026-04-20 00:29:33 - Executing ID (Enables: --silent.)
+2026-04-20 00:29:33 - Error: ID (Enables failed with exit code 2
+2026-04-20 00:29:33 - Executing ID --binary-as-hex: Print binary data as hex
+2026-04-20 00:29:33 - Error: ID --binary-as-hex failed with exit code 127
+2026-04-20 00:29:33 - Executing ID --binary-mode: Binary mode allows certain character sequences to be
+2026-04-20 00:29:33 - Error: ID --binary-mode failed with exit code 127
+2026-04-20 00:29:33 - Executing ID processed: as data that would otherwise be treated with a
+2026-04-20 00:29:33 - Error: ID processed failed with exit code 1
+2026-04-20 00:29:33 - Executing ID special: meaning by the parser. Specifically, this switch
+2026-04-20 00:29:33 - Error: ID special failed with exit code 127
+2026-04-20 00:29:33 - Executing ID turns: off parsing of all client commands except \C and
+2026-04-20 00:29:33 - Error: ID turns failed with exit code 127
+2026-04-20 00:29:33 - Executing ID DELIMITER: in non-interactive mode (i.e., when binary mode
+2026-04-20 00:29:33 - Error: ID DELIMITER failed with exit code 2
+2026-04-20 00:29:33 - Executing ID is: combined with either 1) piped input, 2) the --batch
+2026-04-20 00:29:33 - Error: ID is failed with exit code 2
+2026-04-20 00:29:34 - Executing ID mysql: option, or 3) the 'source' command). Also, in
+2026-04-20 00:29:34 - Error: ID mysql failed with exit code 2
+2026-04-20 00:29:34 - Executing ID binary: mode, occurrences of '\r\n' and ASCII '\0' are
+2026-04-20 00:29:34 - Error: ID binary failed with exit code 127
+2026-04-20 00:29:34 - Executing ID preserved: within strings, whereas by default, '\r\n' is
+2026-04-20 00:29:34 - Error: ID preserved failed with exit code 127
+2026-04-20 00:29:34 - Executing ID translated: to '\n' and '\0' is disallowed in user input.
+2026-04-20 00:29:34 - Error: ID translated failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --character-sets-dir=name: 
+2026-04-20 00:29:34 - Success: ID --character-sets-dir=name
+2026-04-20 00:29:34 - Executing ID Directory: for character set files.
+2026-04-20 00:29:34 - Error: ID Directory failed with exit code 2
+2026-04-20 00:29:34 - Executing ID --column-names: Write column names in results.
+2026-04-20 00:29:34 - Error: ID --column-names failed with exit code 127
+2026-04-20 00:29:34 - Executing ID (Defaults: to on; use --skip-column-names to disable.)
+2026-04-20 00:29:34 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:34 - Executing ID -N,: --skip-column-names
+2026-04-20 00:29:34 - Error: ID -N, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID Don't: write column names in results.
+2026-04-20 00:29:34 - Error: ID Don't failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --column-type-info: Display column type information.
+2026-04-20 00:29:34 - Error: ID --column-type-info failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -c,: --comments      Preserve comments. Send comments to the server. The
+2026-04-20 00:29:34 - Error: ID -c, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID default: is --skip-comments (discard comments), enable
+2026-04-20 00:29:34 - Error: ID default failed with exit code 2
+2026-04-20 00:29:34 - Executing ID with: --comments.
+2026-04-20 00:29:34 - Error: ID with failed with exit code 2
+2026-04-20 00:29:34 - Executing ID -C,: --compress      Use compression in server/client protocol.
+2026-04-20 00:29:34 - Error: ID -C, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID --connect-expired-password: 
+2026-04-20 00:29:34 - Success: ID --connect-expired-password
+2026-04-20 00:29:34 - Executing ID Notify: the server that this client is prepared to handle
+2026-04-20 00:29:34 - Error: ID Notify failed with exit code 127
+2026-04-20 00:29:34 - Executing ID expired: password sandbox mode even if --batch was
+2026-04-20 00:29:34 - Error: ID expired failed with exit code 127
+2026-04-20 00:29:34 - Executing ID specified.: 
+2026-04-20 00:29:34 - Success: ID specified.
+2026-04-20 00:29:34 - Executing ID --connect-timeout=#: Number of seconds before connection timeout.
+2026-04-20 00:29:34 - Error: ID --connect-timeout=# failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -D,: --database=name Database to use.
+2026-04-20 00:29:34 - Error: ID -D, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID -#,: --debug[=#]     This is a non-debug version. Catch this and exit.
+2026-04-20 00:29:34 - Error: ID -#, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID --debug-check: Check memory and open file usage at exit.
+2026-04-20 00:29:34 - Error: ID --debug-check failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -T,: --debug-info    Print some debug info at exit.
+2026-04-20 00:29:34 - Error: ID -T, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID --default-auth=name: Default authentication client-side plugin to use.
+2026-04-20 00:29:34 - Error: ID --default-auth=name failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --default-character-set=name: 
+2026-04-20 00:29:34 - Success: ID --default-character-set=name
+2026-04-20 00:29:34 - Executing ID Set: the default character set.
+2026-04-20 00:29:34 - Error: ID Set failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --delimiter=name: Delimiter to be used.
+2026-04-20 00:29:34 - Error: ID --delimiter=name failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --enable-cleartext-plugin: 
+2026-04-20 00:29:34 - Success: ID --enable-cleartext-plugin
+2026-04-20 00:29:34 - Executing ID Obsolete: option. Exists only for MySQL compatibility.
+2026-04-20 00:29:34 - Error: ID Obsolete failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -e,: --execute=name  Execute command and quit. (Disables --force and history
+2026-04-20 00:29:34 - Error: ID -e, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID file.): 
+2026-04-20 00:29:34 - Success: ID file.)
+2026-04-20 00:29:34 - Executing ID -f,: --force         Continue even if we get an SQL error. Sets
+2026-04-20 00:29:34 - Error: ID -f, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID abort-source-on-error: to 0
+2026-04-20 00:29:34 - Error: ID abort-source-on-error failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -h,: --host=name     Connect to host. Defaults in the following order:
+2026-04-20 00:29:34 - Error: ID -h, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID $MARIADB_HOST,: $MYSQL_HOST, and then localhost
+2026-04-20 00:29:34 - Error: ID $MARIADB_HOST, failed with exit code 127
+2026-04-20 00:29:34 - Executing ID -H,: --html          Produce HTML output.
+2026-04-20 00:29:34 - Error: ID -H, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID -i,: --ignore-spaces Ignore space after function names.
+2026-04-20 00:29:34 - Error: ID -i, failed with exit code 2
+2026-04-20 00:29:34 - Executing ID --init-command=name: SQL Command to execute when connecting to MariaDB server.
+2026-04-20 00:29:34 - Error: ID --init-command=name failed with exit code 127
+2026-04-20 00:29:34 - Executing ID Will: automatically be re-executed when reconnecting.
+2026-04-20 00:29:34 - Error: ID Will failed with exit code 127
+2026-04-20 00:29:34 - Executing ID --line-numbers: Write line numbers for errors.
+2026-04-20 00:29:34 - Error: ID --line-numbers failed with exit code 127
+2026-04-20 00:29:35 - Executing ID (Defaults: to on; use --skip-line-numbers to disable.)
+2026-04-20 00:29:35 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:35 - Executing ID -L,: --skip-line-numbers
+2026-04-20 00:29:35 - Error: ID -L, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID Don't: write line number for errors.
+2026-04-20 00:29:35 - Error: ID Don't failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --local-infile: Enable LOAD DATA LOCAL INFILE.
+2026-04-20 00:29:35 - Error: ID --local-infile failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --max-allowed-packet=#: 
+2026-04-20 00:29:35 - Success: ID --max-allowed-packet=#
+2026-04-20 00:29:35 - Executing ID The: maximum packet length to send to or receive from
+2026-04-20 00:29:35 - Error: ID The failed with exit code 127
+2026-04-20 00:29:35 - Executing ID server.: 
+2026-04-20 00:29:35 - Success: ID server.
+2026-04-20 00:29:35 - Executing ID --max-join-size=#: Automatic limit for rows in a join when using
+2026-04-20 00:29:35 - Error: ID --max-join-size=# failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --safe-updates.: 
+2026-04-20 00:29:35 - Success: ID --safe-updates.
+2026-04-20 00:29:35 - Executing ID -G,: --named-commands
+2026-04-20 00:29:35 - Error: ID -G, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID Enable: named commands. Named commands mean this program's
+2026-04-20 00:29:35 - Error: ID Enable failed with exit code 2
+2026-04-20 00:29:35 - Executing ID internal: commands; see mysql> help . When enabled, the
+2026-04-20 00:29:35 - Error: ID internal failed with exit code 127
+2026-04-20 00:29:35 - Executing ID named: commands can be used from any line of the query,
+2026-04-20 00:29:35 - Error: ID named failed with exit code 127
+2026-04-20 00:29:35 - Executing ID otherwise: only from the first line, before an enter.
+2026-04-20 00:29:35 - Error: ID otherwise failed with exit code 127
+2026-04-20 00:29:35 - Executing ID Disable: with --disable-named-commands. This option is
+2026-04-20 00:29:35 - Error: ID Disable failed with exit code 127
+2026-04-20 00:29:35 - Executing ID disabled: by default.
+2026-04-20 00:29:35 - Error: ID disabled failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --net-buffer-length=#: 
+2026-04-20 00:29:35 - Success: ID --net-buffer-length=#
+2026-04-20 00:29:35 - Executing ID The: buffer size for TCP/IP and socket communication.
+2026-04-20 00:29:35 - Error: ID The failed with exit code 127
+2026-04-20 00:29:35 - Executing ID -b,: --no-beep       Turn off beep on error.
+2026-04-20 00:29:35 - Error: ID -b, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID -o,: --one-database  Ignore statements except those that occur while the
+2026-04-20 00:29:35 - Error: ID -o, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID default: database is the one named at the command line.
+2026-04-20 00:29:35 - Error: ID default failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --pager[=name]: Pager to use to display results. If you don't supply an
+2026-04-20 00:29:35 - Error: ID --pager[=name] failed with exit code 2
+2026-04-20 00:29:35 - Executing ID option,: the default pager is taken from your ENV variable
+2026-04-20 00:29:35 - Error: ID option, failed with exit code 127
+2026-04-20 00:29:35 - Executing ID PAGER.: Valid pagers are less, more, cat [> filename],
+2026-04-20 00:29:35 - Error: ID PAGER. failed with exit code 127
+2026-04-20 00:29:35 - Executing ID etc.: See interactive help (\h) also. This option does not
+2026-04-20 00:29:35 - Error: ID etc. failed with exit code 2
+2026-04-20 00:29:35 - Executing ID work: in batch mode. Disable with --disable-pager. This
+2026-04-20 00:29:35 - Error: ID work failed with exit code 2
+2026-04-20 00:29:35 - Executing ID option: is disabled by default.
+2026-04-20 00:29:35 - Error: ID option failed with exit code 127
+2026-04-20 00:29:35 - Executing ID -p,: --password[=name]
+2026-04-20 00:29:35 - Error: ID -p, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID Password: to use when connecting to server. If password is
+2026-04-20 00:29:35 - Error: ID Password failed with exit code 127
+2026-04-20 00:29:35 - Executing ID not: given it's asked from the tty.
+2026-04-20 00:29:35 - Error: ID not failed with exit code 2
+2026-04-20 00:29:35 - Executing ID --plugin-dir=name: Directory for client-side plugins.
+2026-04-20 00:29:35 - Error: ID --plugin-dir=name failed with exit code 127
+2026-04-20 00:29:35 - Executing ID -P,: --port=#        Port number to use for connection or 0 for default to, in
+2026-04-20 00:29:35 - Error: ID -P, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID order: of preference, my.cnf, $MYSQL_TCP_PORT,
+2026-04-20 00:29:35 - Error: ID order failed with exit code 127
+2026-04-20 00:29:35 - Executing ID /etc/services,: built-in default (3306).
+2026-04-20 00:29:35 - Error: ID /etc/services, failed with exit code 2
+2026-04-20 00:29:35 - Executing ID --print-query-on-error: 
+2026-04-20 00:29:35 - Success: ID --print-query-on-error
+2026-04-20 00:29:35 - Executing ID Print: the query if there was an error. Is only enabled in
+2026-04-20 00:29:35 - Error: ID Print failed with exit code 127
+2026-04-20 00:29:35 - Executing ID --batch: mode if verbose is not set (as then the query
+2026-04-20 00:29:35 - Error: ID --batch failed with exit code 2
+2026-04-20 00:29:35 - Executing ID would: be printed anyway)
+2026-04-20 00:29:35 - Error: ID would failed with exit code 2
+2026-04-20 00:29:35 - Executing ID (Defaults: to on; use --skip-print-query-on-error to disable.)
+2026-04-20 00:29:35 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:35 - Executing ID --progress-reports: Get progress reports for long running commands (like
+2026-04-20 00:29:35 - Error: ID --progress-reports failed with exit code 2
+2026-04-20 00:29:35 - Executing ID ALTER: TABLE)
+2026-04-20 00:29:36 - Error: ID ALTER failed with exit code 2
+2026-04-20 00:29:36 - Executing ID (Defaults: to on; use --skip-progress-reports to disable.)
+2026-04-20 00:29:36 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --prompt=name: Set the command line prompt to this value.
+2026-04-20 00:29:36 - Error: ID --prompt=name failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --protocol=name: The protocol to use for connection (tcp, socket, pipe).
+2026-04-20 00:29:36 - Error: ID --protocol=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID -q,: --quick         Don't cache result, print it row by row. This may slow
+2026-04-20 00:29:36 - Error: ID -q, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID down: the server if the output is suspended. Doesn't use
+2026-04-20 00:29:36 - Error: ID down failed with exit code 2
+2026-04-20 00:29:36 - Executing ID history: file.
+2026-04-20 00:29:36 - Error: ID history failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --quick-max-column-width=#: 
+2026-04-20 00:29:36 - Success: ID --quick-max-column-width=#
+2026-04-20 00:29:36 - Executing ID Maximum: number of characters displayed in a column header
+2026-04-20 00:29:36 - Error: ID Maximum failed with exit code 127
+2026-04-20 00:29:36 - Executing ID when: using --quick
+2026-04-20 00:29:36 - Error: ID when failed with exit code 127
+2026-04-20 00:29:36 - Executing ID -r,: --raw           Write fields without conversion. Used with --batch.
+2026-04-20 00:29:36 - Error: ID -r, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --reconnect: Reconnect if the connection is lost.
+2026-04-20 00:29:36 - Error: ID --reconnect failed with exit code 127
+2026-04-20 00:29:36 - Executing ID (Defaults: to on; use --skip-reconnect to disable.)
+2026-04-20 00:29:36 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:36 - Executing ID -U,: --safe-updates  Only allow UPDATE and DELETE that uses keys.
+2026-04-20 00:29:36 - Error: ID -U, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID -U,: --i-am-a-dummy  Synonym for option --safe-updates, -U.
+2026-04-20 00:29:36 - Error: ID -U, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --sandbox: Disallow commands that access the file system (except \P
+2026-04-20 00:29:36 - Error: ID --sandbox failed with exit code 2
+2026-04-20 00:29:36 - Executing ID without: an argument and \e).
+2026-04-20 00:29:36 - Error: ID without failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --secure-auth: Refuse client connecting to server if it uses old
+2026-04-20 00:29:36 - Error: ID --secure-auth failed with exit code 127
+2026-04-20 00:29:36 - Executing ID (pre-4.1.1): protocol.
+2026-04-20 00:29:36 - Error: ID (pre-4.1.1) failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --select-limit=#: Automatic limit for SELECT when using --safe-updates.
+2026-04-20 00:29:36 - Error: ID --select-limit=# failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --server-arg=name: Send embedded server this as a parameter.
+2026-04-20 00:29:36 - Error: ID --server-arg=name failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --show-query-costs: Show query cost after every statement.
+2026-04-20 00:29:36 - Error: ID --show-query-costs failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --show-warnings: Show warnings after every statement.
+2026-04-20 00:29:36 - Error: ID --show-warnings failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --sigint-ignore: Ignore SIGINT (CTRL-C).
+2026-04-20 00:29:36 - Error: ID --sigint-ignore failed with exit code 2
+2026-04-20 00:29:36 - Executing ID -s,: --silent        Be more silent. Print results with a tab as separator,
+2026-04-20 00:29:36 - Error: ID -s, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID each: row on new line.
+2026-04-20 00:29:36 - Error: ID each failed with exit code 127
+2026-04-20 00:29:36 - Executing ID -S,: --socket=name   The socket file to use for connection.
+2026-04-20 00:29:36 - Error: ID -S, failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl: Enable SSL for connection (automatically enabled with
+2026-04-20 00:29:36 - Error: ID --ssl failed with exit code 2
+2026-04-20 00:29:36 - Executing ID other: flags).
+2026-04-20 00:29:36 - Error: ID other failed with exit code 2
+2026-04-20 00:29:36 - Executing ID (Defaults: to on; use --skip-ssl to disable.)
+2026-04-20 00:29:36 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-ca=name: CA file in PEM format (check OpenSSL docs, implies
+2026-04-20 00:29:36 - Error: ID --ssl-ca=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl).: 
+2026-04-20 00:29:36 - Success: ID --ssl).
+2026-04-20 00:29:36 - Executing ID --ssl-capath=name: CA directory (check OpenSSL docs, implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-capath=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-cert=name: X509 cert in PEM format (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-cert=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-cipher=name: SSL cipher to use (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-cipher=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-key=name: X509 key in PEM format (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-key=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-crl=name: Certificate revocation list (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-crl=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-crlpath=name: Certificate revocation list path (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-crlpath=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --tls-version=name: TLS protocol version for secure connection.
+2026-04-20 00:29:36 - Error: ID --tls-version=name failed with exit code 127
+2026-04-20 00:29:36 - Executing ID --ssl-fp=name: Server certificate fingerprint (implies --ssl).
+2026-04-20 00:29:36 - Error: ID --ssl-fp=name failed with exit code 2
+2026-04-20 00:29:36 - Executing ID --ssl-fplist=name: File with accepted server certificate fingerprints, one
+2026-04-20 00:29:36 - Error: ID --ssl-fplist=name failed with exit code 127
+2026-04-20 00:29:37 - Executing ID per: line (implies --ssl).
+2026-04-20 00:29:37 - Error: ID per failed with exit code 2
+2026-04-20 00:29:37 - Executing ID --ssl-verify-server-cert: 
+2026-04-20 00:29:37 - Success: ID --ssl-verify-server-cert
+2026-04-20 00:29:37 - Executing ID Verify: server's certificate to prevent man-in-the-middle
+2026-04-20 00:29:37 - Error: ID Verify failed with exit code 2
+2026-04-20 00:29:37 - Executing ID attacks: 
+2026-04-20 00:29:37 - Success: ID attacks
+2026-04-20 00:29:37 - Executing ID (Defaults: to on; use --skip-ssl-verify-server-cert to disable.)
+2026-04-20 00:29:37 - Error: ID (Defaults failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -t,: --table         Output in table format.
+2026-04-20 00:29:37 - Error: ID -t, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID --tee=name: Append everything into outfile. See interactive help (\h)
+2026-04-20 00:29:37 - Error: ID --tee=name failed with exit code 2
+2026-04-20 00:29:37 - Executing ID also.: Does not work in batch mode. Disable with
+2026-04-20 00:29:37 - Error: ID also. failed with exit code 127
+2026-04-20 00:29:37 - Executing ID --disable-tee.: This option is disabled by default.
+2026-04-20 00:29:37 - Error: ID --disable-tee. failed with exit code 127
+2026-04-20 00:29:37 - Executing ID -n,: --unbuffered    Flush buffer after each query.
+2026-04-20 00:29:37 - Error: ID -n, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -u,: --user=name     User for login if not current user.
+2026-04-20 00:29:37 - Error: ID -u, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -v,: --verbose       Write more. (-v -v -v gives the table output format).
+2026-04-20 00:29:37 - Error: ID -v, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -V,: --version       Output version information and exit.
+2026-04-20 00:29:37 - Error: ID -V, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -E,: --vertical      Print the output of a query (rows) vertically.
+2026-04-20 00:29:37 - Error: ID -E, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -w,: --wait          Wait and retry if connection is down.
+2026-04-20 00:29:37 - Error: ID -w, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID -X,: --xml           Produce XML output.
+2026-04-20 00:29:37 - Error: ID -X, failed with exit code 2
+2026-04-20 00:29:37 - Executing ID : 
+2026-04-20 00:29:37 - Success: ID 
+2026-04-20 00:29:37 - Executing ID Variables: (--variable-name=value)
+2026-04-20 00:29:37 - Error: ID Variables failed with exit code 127
+2026-04-20 00:29:37 - Executing ID and: boolean options {FALSE|TRUE}  Value (after reading options)
+2026-04-20 00:29:37 - Error: ID and failed with exit code 2
+2026-04-20 00:29:37 - Executing ID ---------------------------------: ----------------------------------------
+2026-04-20 00:29:37 - Error: ID --------------------------------- failed with exit code 2
+2026-04-20 00:29:37 - Executing ID abort-source-on-error: FALSE
+2026-04-20 00:29:37 - Error: ID abort-source-on-error failed with exit code 127
+2026-04-20 00:29:37 - Executing ID auto-rehash: TRUE
+2026-04-20 00:29:37 - Error: ID auto-rehash failed with exit code 127
+2026-04-20 00:29:37 - Executing ID auto-vertical-output: FALSE
+2026-04-20 00:29:37 - Error: ID auto-vertical-output failed with exit code 127
+2026-04-20 00:29:37 - Executing ID binary-as-hex: FALSE
+2026-04-20 00:29:37 - Error: ID binary-as-hex failed with exit code 127
+2026-04-20 00:29:37 - Executing ID binary-mode: FALSE
+2026-04-20 00:29:37 - Error: ID binary-mode failed with exit code 127
+2026-04-20 00:29:37 - Executing ID character-sets-dir: (No default value)
+2026-04-20 00:29:37 - Error: ID character-sets-dir failed with exit code 127
+2026-04-20 00:29:37 - Executing ID column-names: FALSE
+2026-04-20 00:29:37 - Error: ID column-names failed with exit code 127
+2026-04-20 00:29:37 - Executing ID column-type-info: FALSE
+2026-04-20 00:29:37 - Error: ID column-type-info failed with exit code 127
+2026-04-20 00:29:37 - Executing ID comments: FALSE
+2026-04-20 00:29:37 - Error: ID comments failed with exit code 127
+2026-04-20 00:29:37 - Executing ID compress: FALSE
+2026-04-20 00:29:37 - Error: ID compress failed with exit code 127
+2026-04-20 00:29:37 - Executing ID connect-expired-password: FALSE
+2026-04-20 00:29:37 - Error: ID connect-expired-password failed with exit code 127
+2026-04-20 00:29:37 - Executing ID connect-timeout: 0
+2026-04-20 00:29:37 - Error: ID connect-timeout failed with exit code 127
+2026-04-20 00:29:37 - Executing ID database: (No default value)
+2026-04-20 00:29:37 - Error: ID database failed with exit code 127
+2026-04-20 00:29:37 - Executing ID debug-check: FALSE
+2026-04-20 00:29:37 - Error: ID debug-check failed with exit code 127
+2026-04-20 00:29:37 - Executing ID debug-info: FALSE
+2026-04-20 00:29:37 - Error: ID debug-info failed with exit code 127
+2026-04-20 00:29:37 - Executing ID default-auth: (No default value)
+2026-04-20 00:29:37 - Error: ID default-auth failed with exit code 127
+2026-04-20 00:29:37 - Executing ID default-character-set: auto
+2026-04-20 00:29:37 - Error: ID default-character-set failed with exit code 127
+2026-04-20 00:29:37 - Executing ID delimiter: ;
+2026-04-20 00:29:37 - Error: ID delimiter failed with exit code 2
+2026-04-20 00:29:37 - Executing ID force: FALSE
+2026-04-20 00:29:37 - Error: ID force failed with exit code 127
+2026-04-20 00:29:38 - Executing ID host: localhost
+2026-04-20 00:29:38 - Error: ID host failed with exit code 127
+2026-04-20 00:29:38 - Executing ID html: FALSE
+2026-04-20 00:29:38 - Error: ID html failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ignore-spaces: FALSE
+2026-04-20 00:29:38 - Error: ID ignore-spaces failed with exit code 127
+2026-04-20 00:29:38 - Executing ID init-command: (No default value)
+2026-04-20 00:29:38 - Error: ID init-command failed with exit code 127
+2026-04-20 00:29:38 - Executing ID line-numbers: TRUE
+2026-04-20 00:29:38 - Error: ID line-numbers failed with exit code 127
+2026-04-20 00:29:38 - Executing ID local-infile: FALSE
+2026-04-20 00:29:38 - Error: ID local-infile failed with exit code 127
+2026-04-20 00:29:38 - Executing ID max-allowed-packet: 16777216
+2026-04-20 00:29:38 - Error: ID max-allowed-packet failed with exit code 127
+2026-04-20 00:29:38 - Executing ID max-join-size: 1000000
+2026-04-20 00:29:38 - Error: ID max-join-size failed with exit code 127
+2026-04-20 00:29:38 - Executing ID named-commands: FALSE
+2026-04-20 00:29:38 - Error: ID named-commands failed with exit code 127
+2026-04-20 00:29:38 - Executing ID net-buffer-length: 16384
+2026-04-20 00:29:38 - Error: ID net-buffer-length failed with exit code 127
+2026-04-20 00:29:38 - Executing ID no-beep: FALSE
+2026-04-20 00:29:38 - Error: ID no-beep failed with exit code 127
+2026-04-20 00:29:38 - Executing ID plugin-dir: (No default value)
+2026-04-20 00:29:38 - Error: ID plugin-dir failed with exit code 127
+2026-04-20 00:29:38 - Executing ID port: 0
+2026-04-20 00:29:38 - Error: ID port failed with exit code 127
+2026-04-20 00:29:38 - Executing ID print-query-on-error: TRUE
+2026-04-20 00:29:38 - Error: ID print-query-on-error failed with exit code 127
+2026-04-20 00:29:38 - Executing ID progress-reports: FALSE
+2026-04-20 00:29:38 - Error: ID progress-reports failed with exit code 127
+2026-04-20 00:29:38 - Executing ID prompt: \N [\d]>
+2026-04-20 00:29:38 - Error: ID prompt failed with exit code 2
+2026-04-20 00:29:38 - Executing ID protocol: 
+2026-04-20 00:29:38 - Success: ID protocol
+2026-04-20 00:29:38 - Executing ID quick: FALSE
+2026-04-20 00:29:38 - Error: ID quick failed with exit code 127
+2026-04-20 00:29:38 - Executing ID quick-max-column-width: 9223372036854775807
+2026-04-20 00:29:38 - Error: ID quick-max-column-width failed with exit code 127
+2026-04-20 00:29:38 - Executing ID raw: FALSE
+2026-04-20 00:29:38 - Error: ID raw failed with exit code 127
+2026-04-20 00:29:38 - Executing ID reconnect: FALSE
+2026-04-20 00:29:38 - Error: ID reconnect failed with exit code 127
+2026-04-20 00:29:38 - Executing ID safe-updates: FALSE
+2026-04-20 00:29:38 - Error: ID safe-updates failed with exit code 127
+2026-04-20 00:29:38 - Executing ID i-am-a-dummy: FALSE
+2026-04-20 00:29:38 - Error: ID i-am-a-dummy failed with exit code 127
+2026-04-20 00:29:38 - Executing ID sandbox: FALSE
+2026-04-20 00:29:38 - Error: ID sandbox failed with exit code 127
+2026-04-20 00:29:38 - Executing ID secure-auth: FALSE
+2026-04-20 00:29:38 - Error: ID secure-auth failed with exit code 127
+2026-04-20 00:29:38 - Executing ID select-limit: 1000
+2026-04-20 00:29:38 - Error: ID select-limit failed with exit code 127
+2026-04-20 00:29:38 - Executing ID show-query-costs: FALSE
+2026-04-20 00:29:38 - Error: ID show-query-costs failed with exit code 127
+2026-04-20 00:29:38 - Executing ID show-warnings: FALSE
+2026-04-20 00:29:38 - Error: ID show-warnings failed with exit code 127
+2026-04-20 00:29:38 - Executing ID sigint-ignore: FALSE
+2026-04-20 00:29:38 - Error: ID sigint-ignore failed with exit code 127
+2026-04-20 00:29:38 - Executing ID socket: /run/mysqld/mysqld.sock
+2026-04-20 00:29:38 - Error: ID socket failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl: TRUE
+2026-04-20 00:29:38 - Error: ID ssl failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-ca: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-ca failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-capath: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-capath failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-cert: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-cert failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-cipher: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-cipher failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-key: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-key failed with exit code 127
+2026-04-20 00:29:38 - Executing ID ssl-crl: (No default value)
+2026-04-20 00:29:38 - Error: ID ssl-crl failed with exit code 127
+2026-04-20 00:29:39 - Executing ID ssl-crlpath: (No default value)
+2026-04-20 00:29:39 - Error: ID ssl-crlpath failed with exit code 127
+2026-04-20 00:29:39 - Executing ID tls-version: (No default value)
+2026-04-20 00:29:39 - Error: ID tls-version failed with exit code 127
+2026-04-20 00:29:39 - Executing ID ssl-fp: (No default value)
+2026-04-20 00:29:39 - Error: ID ssl-fp failed with exit code 127
+2026-04-20 00:29:39 - Executing ID ssl-fplist: (No default value)
+2026-04-20 00:29:39 - Error: ID ssl-fplist failed with exit code 127
+2026-04-20 00:29:39 - Executing ID ssl-verify-server-cert: TRUE
+2026-04-20 00:29:39 - Error: ID ssl-verify-server-cert failed with exit code 127
+2026-04-20 00:29:39 - Executing ID table: FALSE
+2026-04-20 00:29:39 - Error: ID table failed with exit code 127
+2026-04-20 00:29:39 - Executing ID unbuffered: FALSE
+2026-04-20 00:29:39 - Error: ID unbuffered failed with exit code 127
+2026-04-20 00:29:39 - Executing ID user: logapp
+2026-04-20 00:29:39 - Error: ID user failed with exit code 127
+2026-04-20 00:29:39 - Executing ID vertical: FALSE
+2026-04-20 00:29:39 - Error: ID vertical failed with exit code 127
+2026-04-20 00:29:39 - Executing ID xml: FALSE
+2026-04-20 00:29:39 - Error: ID xml failed with exit code 127
+2026-04-20 00:29:39 - Engine run complete
