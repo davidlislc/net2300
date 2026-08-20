@@ -1,5 +1,6 @@
 #!/bin/bash
 # contents of fibonacci
+# some demo git operations
 if [ $# -eq 0 ]; then
     echo "fibonacci needs an argument"
     exit 1
